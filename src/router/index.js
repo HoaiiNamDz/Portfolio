@@ -28,14 +28,6 @@ const router = createRouter({
       component: () => import('../pages/Experience.vue')
     },
     {
-      path: '/works',
-      name: 'works',
-      meta: {
-        layout: 'primary'
-      },
-      component: () => import('../pages/Works.vue')
-    },
-    {
       path: '/contact',
       name: 'contact',
       meta: {

@@ -1,7 +1,7 @@
 <template>
     <div class="flex">
-        <NavBar :layout="layout"/>
-        <keep-alive>
+        <NavBar :layout="layout" class="fixed"/>
+        <keep-alive class="ml-[280px]">
             <component :is="layout" class="flex-1">
                 <transition name="fade">
                     <router-view/>
@@ -21,7 +21,7 @@
     </div>
 </template>
 <script>
-import { computed, resolveComponent } from 'vue'
+import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import NavBar from './components/Navbar.vue'
 import Home from './pages/Home.vue'
@@ -29,7 +29,6 @@ import About from './pages/About.vue'
 export default {
     components: {
         NavBar, Home, About,
-        // RouterViewWrapper: (props, { slots }) => h(resolveComponent('router-view'), props, slots)
     },
     setup() {
         const isShowing = true
