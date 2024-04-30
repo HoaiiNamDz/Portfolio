@@ -10,5 +10,8 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  build: {
+    chunkSizeWarningLimit: 1000, // Giới hạn kích thước chunk cảnh báo lên đến 1000 kBs
+  },
 })
