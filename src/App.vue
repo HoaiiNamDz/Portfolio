@@ -20,14 +20,14 @@
     </div>
 </template>
 <script>
-import NavBar from '@/components/NavBar.vue'
-import MainCard from '@/components/MainCard.vue'
-import DefaultLayout from '@/layouts/default.vue'
-import SplashView from '@/components/SplashView.vue'
-import About from '@/pages/About.vue'
-import Project from '@/pages/Project.vue'
-import Work from '@/pages/Work.vue'
-import Contact from '@/pages/Contact.vue'
+import NavBar from './components/NavBar.vue'
+import MainCard from './components/MainCard.vue'
+import DefaultLayout from './layouts/default.vue'
+import SplashView from './components/SplashView.vue'
+import About from './pages/About.vue'
+import Project from './pages/Project.vue'
+import Work from './pages/Work.vue'
+import Contact from './pages/Contact.vue'
 
 export default {
     components: {
