@@ -1,39 +1,41 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'about',
       meta: {
         layout: 'default'
       },
-      component: () => import('../pages/Home.vue')
-    },
-    {
-      path: '/about',
-      name: 'about',
-      meta: {
-        layout: 'primary'
-      },
+      
       component: () => import('../pages/About.vue')
     },
     {
-      path: '/experience',
-      name: 'experience',
+      path: '/project',
+      name: 'project',
       meta: {
-        layout: 'primary'
+        layout: 'default'
       },
-      component: () => import('../pages/Experience.vue')
+      component: () => import('../pages/Project.vue')
     },
     {
       path: '/contact',
       name: 'contact',
       meta: {
-        layout: 'primary'
+        layout: 'default'
       },
       component: () => import('../pages/Contact.vue')
+    },
+    {
+      path: '/work',
+      name: 'work',
+      meta: {
+        layout: 'default'
+      },
+      component: () => import('../pages/Work.vue')
     },
   ],
   linkActiveClass: 'active',
