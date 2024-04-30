@@ -13,16 +13,12 @@ import { library, dom} from '@fortawesome/fontawesome-svg-core'
 
 import { registerGlobalComponents } from './utils/import'
 
-import { createPinia } from 'pinia'
-
 const app = createApp(App)
-const pinia = createPinia()
 
 library.add(fab,far,fas)
 dom.watch()
 app.use(router)
 app.use(VueKinesis)
-app.use(pinia)
 app.component('font-awesome-icon', FontAwesomeIcon)
 
 registerGlobalComponents(app)
