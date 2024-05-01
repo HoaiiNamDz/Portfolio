@@ -1,7 +1,7 @@
 <template lang="">
-    <div class="sticky top-0 left-[10%] h-20 bg-white md:absolute md:top-1/3 md:-translate-y-3/4 md:left-[8%] md:flex md:flex-col md:gap-4 md:bg-transparent">
-        <div class="md:dark:bg-[#31313A] md:bg-white md:w-full md:rounded-md text-center w-20 h-full md:ml-0 ml-auto md:relative md:top-0">
-            <img src="/logo.png" alt="" class="absolute -top-14 -left-28 dark:invert z-0 md:hidden ">
+    <div class="sticky top-0 left-[10%] h-20 bg-white dark:bg-[#31313A] md:absolute md:top-1/3 md:-translate-y-3/4 md:left-[8%] md:flex md:flex-col md:gap-4 md:bg-transparent">
+        <div class="dark:bg-[#31313A] md:bg-white md:w-full md:rounded-md text-center w-20 h-full md:ml-0 ml-auto md:relative md:top-0">
+            <img src="/logo.png" alt="" class="absolute -top-14 -left-28 dark:invert z-0 md:hidden pointer-events-none">
             <label class="theme-toggle group cursor-pointer md:px-3 md:py-5 border-b group py-3 px-5" title="Toggle theme">
                 <input type="checkbox" @click="toggleTheme" v-model="isDark"/>
                 <svg xmlns="http://www.w3.org/2000/svg"  aria-hidden="true"
