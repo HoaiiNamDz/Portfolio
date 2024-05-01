@@ -20,7 +20,7 @@
     </div>
 </template>
 <script>
-import NavBar from './components/navbar.vue'
+import NavBar from './components/navBar.vue'
 import MainCard from './components/mainCard.vue'
 import DefaultLayout from './layouts/default.vue'
 import SplashView from './components/splashView.vue'
