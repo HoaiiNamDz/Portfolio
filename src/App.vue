@@ -24,10 +24,10 @@ import NavBar from './components/navBar.vue'
 import MainCard from './components/mainCard.vue'
 import DefaultLayout from './layouts/default.vue'
 import SplashView from './components/splashView.vue'
-import About from './pages/About.vue'
-import Project from './pages/Project.vue'
-import Work from './pages/Work.vue'
-import Contact from './pages/Contact.vue'
+import About from './pages/about.vue'
+import Project from './pages/project.vue'
+import Work from './pages/work.vue'
+import Contact from './pages/contact.vue'
 
 export default {
     components: {

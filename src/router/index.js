@@ -11,7 +11,7 @@ const router = createRouter({
         layout: 'default'
       },
       
-      component: () => import('../pages/About.vue')
+      component: () => import('../pages/about.vue')
     },
     {
       path: '/project',
@@ -19,7 +19,7 @@ const router = createRouter({
       meta: {
         layout: 'default'
       },
-      component: () => import('../pages/Project.vue')
+      component: () => import('../pages/project.vue')
     },
     {
       path: '/contact',
@@ -27,7 +27,7 @@ const router = createRouter({
       meta: {
         layout: 'default'
       },
-      component: () => import('../pages/Contact.vue')
+      component: () => import('../pages/contact.vue')
     },
     {
       path: '/work',
@@ -35,7 +35,7 @@ const router = createRouter({
       meta: {
         layout: 'default'
       },
-      component: () => import('../pages/Work.vue')
+      component: () => import('../pages/work.vue')
     },
   ],
   linkActiveClass: 'active',
