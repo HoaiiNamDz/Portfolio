@@ -20,10 +20,10 @@
     </div>
 </template>
 <script>
-import NavBar from './components/navBar.vue'
-import MainCard from './components/mainCard.vue'
+import NavBar from './components/navbar.vue'
+import MainCard from './components/maincard.vue'
 import DefaultLayout from './layouts/default.vue'
-import SplashView from './components/splashView.vue'
+import SplashView from './components/splashview.vue'
 import About from './pages/about.vue'
 import Project from './pages/project.vue'
 import Work from './pages/work.vue'
